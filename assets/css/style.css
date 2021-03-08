@@ -4,6 +4,178 @@
   padding: 0;
 }
 
+/* Global */
 body {
-  
+  font-family: 'Montserrat', sans-serif;;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+main {
+  background-color: #f4f9fd;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-full {
+  width: 100%;
+  padding: 0 10%;
+}
+
+.header-container {
+  min-width: 1200px;
+  height: 100%;
+  background-image: url('../img/jumbotron.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  padding: 0 5px;
+  font-weight: 600;
+  font-size: 0.8em;
+  margin: 0 10px;
+}
+
+/* layout */
+.col-6 {
+  width: 50%
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #000000;
+}
+
+/* color */
+.gray {
+  background-color: #f4f9fd;
+}
+
+/* icon */
+.fa-search {
+  color: #01a6be;
+}
+
+/* button */
+.btn-border {
+  border: 1px solid #fe775a;
+  color: #fe775a;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 8px;
+  padding: 0 20px;
+}
+.btn-border:hover {
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.btn {
+  border: 1px solid #fe775a;
+  background-color: #fe775a;
+  color: #ffffff;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 8px;
+  padding: 0 20px;
+}
+.btn:hover {
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn-large {
+  border: 1px solid #fe775a;
+  background-color: #fe775a;
+  color: #ffffff;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 8px;
+  padding: 0 20px;
+}
+.btn-large:hover {
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* menu */
+.nav-top {
+  height: 60px;
+  line-height: 60px;
+}
+
+.nav-bottom {
+  background-color: #ffffff;
+  height: 60px;
+  line-height: 60px;
+}
+
+.logo {
+  height: 50px;
+  line-height: 50px;
+  padding: 8px;
+}
+
+.border-right {
+  border-right: 2px solid gray;
+  padding-right: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+
+/* slider */
+.jumbotron {
+  position: relative;
+  height: 100vh; 
+}
+.jumbotron-text {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+.jumbotron h1 {
+  color: #33475b;
+  font-size: 3.5em;
+  margin-bottom: 30px;
+}
+
+.jumbotron p {
+  color: #000000;
+  font-size: 1em;
+  margin: 30px 0;
 }

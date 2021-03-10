@@ -163,6 +163,11 @@ h6 {
   padding-right: 10px;
 }
 
+.py-50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .px-10 {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -463,6 +468,7 @@ footer li:hover {
 .menu-top ul li {
   display: inline-block;
   padding: 0 10px;
+  margin-top: 50px;
 }
 
 .link-footer ul li {

@@ -40,12 +40,10 @@ footer {
 }
 
 .header-container {
-  min-width: 1200px;
-  height: 100%;
   background-image: url('../img/jumbotron.png');
   background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
+  background-position: bottom center;
+  background-size: cover;
 }
 
 ul {
@@ -184,6 +182,15 @@ h6 {
   height: 1px;
   background-color: #dadee0;
   width: 100%;
+}
+
+.line-green {
+  margin-top: -100px;
+  width: 100%;
+  height: 100px;
+  background-color: #afebe4;
+  border-bottom: 3px solid #000000;
+  border-top: 3px solid #000000;
 }
 
 /* color */
@@ -328,6 +335,7 @@ h6 {
   background-color: #f4f9fd;
   width: 100%;
   padding:0 10%;
+  z-index: 99;
 }
 
 .nav-bottom {
@@ -447,6 +455,10 @@ h6 {
 .social i {
   padding: 10px;
   margin-top: 10px;
+}
+
+.social i:hover {
+  color: gray;
 }
 
 footer h6 {

@@ -71,6 +71,9 @@ h5 {
 }
 
 /* layout */
+.row {
+  display: inline-block;
+}
 .col-12 {
   width: 100%
 }
@@ -292,6 +295,38 @@ h5 {
   font-size: 1em;
 }
 
+#community .content-image {
+  height: 40px;
+  line-height: 40px;
+}
+
+/* partner  */
+.image-partner {
+  padding: 20px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.image-partner img {
+  width: 150px;
+}
+
+.image-box-partner {
+  height: 300px;
+}
+
+#partner h3 {
+  font-size: 2em;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  color: #32495b;
+}
+
+
+#partner p {
+  margin-bottom: 30px;
+}
+
 /* box */
 .box {
   padding: 50px;
@@ -314,6 +349,10 @@ h5 {
 .box-border-bottom {
   border-bottom: 1px solid #ffffff;
   padding: 20px;
+}
+
+.box-partner {
+  padding: 5px 30px;
 }
 
 .text-box {
